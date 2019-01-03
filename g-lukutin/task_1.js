@@ -1,11 +1,15 @@
-function correctSentence(text) {
-    const firstLetter = text[0].toUpperCase();
-    let remainingText = text.slice(1);
+//test
+function secondIndex(text, symbol) {
+
+    var b = text.indexOf(symbol);
+    var d = -1;
+    if (b  > d)
+ {
+     var c = text.indexOf(symbol, b+1)
+    if ( c > 0) {
+        return c
+    }};
+ }
 
 
-    if (text[text.length - 1] !== '.') {
-        remainingText = remainingText + '.';
-    }
-
-    return firstLetter + remainingText;
-}
+console.log(secondIndex("aba", "b"))
