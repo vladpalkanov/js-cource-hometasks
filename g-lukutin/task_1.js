@@ -1,4 +1,4 @@
-//test
+
 function secondIndex(text, symbol) {
 
     var b = text.indexOf(symbol);
